@@ -1,0 +1,142 @@
+/* [ -- Master Stylesheet -- ] */
+/* ----------------------------------------------------------
+:: Template Name: ClassyNav - Responsive Mega Menu Plugins
+:: Author: Designing World
+:: Author URL: https://themeforest.net/user/designing-world/portfolio
+:: Version: 1.0.0
+:: Created: May 16, 2018
+:: Last Updated: May 16, 2018
+---------------------------------------------------------- */
+/* Base CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+.bg-img {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bg-transparent {
+  background-color: transparent !important; }
+
+
+/* Desktop Area CSS */
+
+/* Dark Theme CSS */
+.dark.classy-nav-container {
+  background-color: #192a56; }
+  .dark.classy-nav-container a {
+    color: rgba(255, 255, 255, 0.7); }
+    .dark.classy-nav-container a:hover, .dark.classy-nav-container a:focus {
+      color: #ffffff; }
+.dark .classynav ul li .dropdown {
+  background-color: #192a56; }
+.dark .classynav ul li .megamenu {
+  background-color: #192a56; }
+.dark .classynav ul li .megamenu .single-mega.cn-col-5,
+.dark .classynav ul li .megamenu .single-mega.cn-col-4,
+.dark .classynav ul li .megamenu .single-mega.cn-col-3 {
+  border-right: 1px solid rgba(255, 255, 255, 0.05); }
+.dark .classynav ul li.megamenu-item ul li a {
+  border-bottom: none; }
+.dark .classynav ul li .megamenu .single-mega .title {
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+.dark .classy-navbar-toggler .navbarToggler span {
+  background-color: #ffffff; }
+.dark.breakpoint-on .classy-navbar .classy-menu {
+  background-color: #192a56; }
+.dark .classycloseIcon .cross-wrap span {
+  background-color: #ffffff; }
+.dark.breakpoint-on .classynav > ul > li > a {
+  background-color: #192a56;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+.dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-5, .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-4, .dark.breakpoint-on .classynav ul li .megamenu .single-mega.cn-col-3 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: none; }
+.dark .classynav ul li.megamenu-item > a:after {
+  color: #ffffff; }
+.dark .classynav ul li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li a {
+  border-bottom: 1px solid rgba(242, 244, 248, 0.1); }
+.dark .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:last-child a {
+  border-bottom: none; }
+
+/* Right Side Menu Open CSS */
+.right.breakpoint-on .classy-navbar .classy-menu {
+  left: auto;
+  right: -310px; }
+.right.breakpoint-on .classy-navbar .classy-menu.menu-on {
+  left: auto;
+  right: 0; }
+
+/* Dropdown RTL CSS */
+.dropdown-rtl.breakpoint-off .classynav ul li .dropdown {
+  left: auto;
+  right: 0; }
+.dropdown-rtl .classynav ul li a,
+.dropdown-rtl .classynav ul li .megamenu .single-mega .title {
+  text-align: right; }
+.dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown {
+  right: 180px;
+  left: auto;
+  opacity: 0;
+  visibility: hidden;
+  top: 10px; }
+.dropdown-rtl.breakpoint-off .classynav ul li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: 90%; }
+.dropdown-rtl.breakpoint-off .classynav ul li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown, .dropdown-rtl.breakpoint-off .classynav ul li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li .dropdown li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: 0; }
+.dropdown-rtl.breakpoint-on .classynav ul li ul.dropdown li ul li {
+  margin-left: 0;
+  margin-right: 15px; }
+
+/* Fallback Responsive CSS */
+
+/*# sourceMappingURL=classy-nav.css.map */
